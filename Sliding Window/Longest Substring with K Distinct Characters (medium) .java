@@ -3,7 +3,14 @@ import java.util.Map;
 
 /**
 Longest Substring with K Distinct Characters (medium)
-https://www.educative.io/courses/grokking-the-coding-interview/YQQwQMWLx80
+ * 解决问题：
+ * 从数组中查询一个连续子数组
+ * 
+ * 窗口限制条件：
+ * 窗口中不同字符数量 <= k
+ * 
+ * 如何满足条件：
+ * 当窗口中不同字符数量>k时， 缩小窗口，直到满足条件
 */
 
 class LongestSubstringKDistinct {

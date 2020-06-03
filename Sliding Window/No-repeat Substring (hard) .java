@@ -4,8 +4,17 @@ import java.util.Map;
  * No-repeat Substring (hard)
  * Given a string, find the length of the longest substring which has no repeating characters.
  * 
- * 窗口内需要满足的条件: 无重复字符 
- * 窗口right+1后，需要处理left，使其满足上述条件;
+ * 解决问题：
+ * 从数组中查询一个连续子串
+ * 
+ * 窗口限制条件：
+ * 无重复字符
+ * 
+ * 如何满足条件：
+ * 窗口右移一位，如果重复，则移动windowStart移除重复项
+ * windowStart = Math.max(preSameCharIdnex+1, windowStart)
+ * 如果 windowStart=preSameCharIdnex+1， 下面的场景存在bug
+ * 
  *        |start  
  * a  b c c b; 
  *          |end (windowStart = Math.max(preSameCharIdnex+1, windowStart))

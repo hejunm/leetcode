@@ -2,8 +2,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Fruits into Baskets (medium)
- * 找出最长子序列表，最多两个不同的元素
+ * https://leetcode.com/problems/fruit-into-baskets/
+ * https://leetcode-cn.com/problems/fruit-into-baskets/
+ * 904. Fruit Into Baskets
+ * 解决问题：
+ * 从数组中查询一个连续子数组
+ * 
+ * 窗口限制条件：
+ * 窗口中 不同字符数量<=2
+ * 
+ * 如何满足条件：
+ * 当 不同字符数量>2时， 缩小窗口，直到满足条件
 */
 
 class MaxFruitCountOf2Types {

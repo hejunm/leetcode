@@ -2,9 +2,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
-* Longest Substring with Same Letters after Replacement (hard)
-* 滑动窗口中数据满足条件:
-* 窗口大小 -（窗口字母最高频次）<= k (这样可以保证替换后全部相同)
+ * Longest Substring with Same Letters after Replacement (hard)
+ * Given a string with lowercase letters only,  if you are allowed to replace no more than ‘k’ letters with any letter, 
+ * find the length of the longest substring having the same letters after replacement.
+ * 解决问题：
+ * 找到最大连续子串
+ * 
+ * 窗口限制条件：
+ * 字符出现的最高频次 + k <= 窗口大小
+ * 
+ * 如何满足条件：
+ * 不满足条件是 缩小窗口
 */
 
 class CharacterReplacement {
