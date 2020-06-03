@@ -16,6 +16,7 @@ Explanation: The numbers at index 0 and 2 add up to 11: 2+9=11
 解决问题：
 从有序数组中找出两个数， 要求：这两个数的和为给定值
 
+双指针: 头尾各一个
 **/
 
 class PairWithTargetSum {
