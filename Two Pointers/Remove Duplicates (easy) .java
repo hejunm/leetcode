@@ -13,7 +13,7 @@ Input: [2, 2, 2, 11]
 Output: 2
 Explanation: The first two elements after removing the duplicates will be [2, 11].
 
-解决问题：
+分析：
 从有序数组中 去除重复重复数组
 
 双指针: 快慢指针
