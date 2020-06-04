@@ -1,10 +1,11 @@
 {
     "configurations": [
+
         {
             "type": "java",
-            "name": "CodeLens (Launch) - LinkedListCycle",
+            "name": "CodeLens (Launch)",
             "request": "launch",
-            "mainClass": "LinkedListCycle"
+            "mainClass": "LinkedListCycleStart"
         }
     ]
 }
