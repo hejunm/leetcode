@@ -33,6 +33,7 @@ int binary_search(int[] nums, int target) {
 
 int left_bound(int[] nums, int target) {
     int left = 0, right = nums.length - 1;
+    // 退出条件：left = right+1
     while (left <= right) {
         int mid = left + (right - left) / 2;
         if (nums[mid] < target) {
@@ -53,6 +54,7 @@ int left_bound(int[] nums, int target) {
 
 int right_bound(int[] nums, int target) {
     int left = 0, right = nums.length - 1;
+    // 退出条件：right = left-1
     while (left <= right) {
         int mid = left + (right - left) / 2;
         if (nums[mid] < target) {

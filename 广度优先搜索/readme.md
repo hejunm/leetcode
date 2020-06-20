@@ -42,4 +42,3 @@ int BFS(Node start, Node target) {
 
 * [111.二叉树的最小深度](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 * [752.打开转盘锁](https://leetcode-cn.com/problems/open-the-lock/)
-* 
