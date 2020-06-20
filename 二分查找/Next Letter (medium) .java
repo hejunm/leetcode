@@ -41,7 +41,10 @@ class NextLetter {
                 right = mid - 1;
             } 
         }
-        // 最后要检查 left 越界的情况
+        /**
+         * 最后要检查 left 越界的情况
+         * 不需要 if (left >= letters.length || letters[left] <= key)，因为 right-1的条件是letters[mid] > key
+        */
         if (left >= letters.length)
             return letters[0];
         return letters[left];
