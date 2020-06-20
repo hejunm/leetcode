@@ -1,6 +1,11 @@
 {
     "configurations": [
-
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CeilingOfANumber",
+            "request": "launch",
+            "mainClass": "CeilingOfANumber"
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch)",
