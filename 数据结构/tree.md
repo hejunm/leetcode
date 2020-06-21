@@ -11,8 +11,9 @@
 * 改进的二叉搜索树
 * AVL树
 * 红黑树
+* [AVL树 与 红黑树的比较](https://blog.csdn.net/mmshixing/article/details/51692892)
 
-#### AVL树（平衡二叉树）
+#### AVL树（高度平衡二叉树）
 
 * AVL树，是一种平衡(balanced)的二叉搜索树(binary search tree, 简称为BST)
 * [平衡二叉搜索树专题](https://leetcode-cn.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/67/appendix-height-balanced-bst/187/)
