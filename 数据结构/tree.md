@@ -11,7 +11,6 @@
 * 改进的二叉搜索树
 * AVL树
 * 红黑树
-* 树堆
 
 #### AVL树（平衡二叉树）
 
@@ -22,3 +21,5 @@
 * [可视化](https://link.zhihu.com/?target=https%3A//www.cs.usfca.edu/~galles/visualization/AVLtree.html)
 
 #### 红黑树
+
+* [wiki](https://zh.wikipedia.org/wiki/%E7%BA%A2%E9%BB%91%E6%A0%91)
