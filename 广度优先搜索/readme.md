@@ -38,24 +38,21 @@ int BFS(Node start, Node target) {
 }
 
 void BFS(TreeNode root) {
-    if(root == null){
-        //
+    Queue<TreeNode> queue = new LinkedList<>();
+    if(root != null){
+        queue.offer(root);
     }
-    Queue<TreeNode> q = new LinkedList<>();
-    q.offer(root);
-    while (!q.isEmpty()) {
-        int sz = q.size();
-        // 将当前队列中的所有节点向四周扩散
-        for (int i = 0; i < sz; i++) {
-            TreeNode cur = q.poll();
-            //处理数据
-
-            if(cur.left != null){
-                q.offer(cur.left);
+    while (!queue.isEmpty()) {
+        int size = queue.size();
+        for (int i = 0; i < size; i++) {
+            TreeNode current = queue.poll();
+            if(current.left != null){
+                queue.offer(cur.left);
             }
-            if(cur.right != null){
-                q.offer(cur.right);
+            if(current.right != null){
+                queue.offer(cur.right);
             }
+            //逻辑处理
         }
     }
 }
