@@ -47,3 +47,4 @@ void backtrack(int[] nums, LinkedList<Integer> track) {
 
 * [46.全排列](https://leetcode-cn.com/problems/permutations/)
 * [51.N皇后](https://leetcode-cn.com/problems/n-queens/)
+* [leetcode 专题](https://leetcode-cn.com/problemset/all/?topicSlugs=backtracking)
