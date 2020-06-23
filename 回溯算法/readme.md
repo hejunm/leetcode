@@ -2,6 +2,7 @@
 
 ## 介绍
 
+
 * [wiki](https://zh.wikipedia.org/wiki/%E5%9B%9E%E6%BA%AF%E6%B3%95)
 * 回溯法采用试错的思想，它尝试分步的去解决一个问题。
 * 在分步解决问题的过程中，当它通过尝试发现现有的分步答案不能得到有效的正确的解答的时候，它将取消上一步甚至是上几步的计算，
@@ -9,7 +10,7 @@
 * 回溯法通常用最简单的递归方法来实现，在反复重复上述的步骤后可能出现两种情况：
   * 找到一个可能存在的正确的答案
   * 在尝试了所有可能的分步方法后宣告该问题没有答案
-
+  
 ## 解题方法 & 代码模板
 
 ```java
@@ -52,3 +53,4 @@ void backtrack(int[] nums, LinkedList<Integer> track) {
 
 * [46.全排列](https://leetcode-cn.com/problems/permutations/)
 * [51.N皇后](https://leetcode-cn.com/problems/n-queens/)
+* [leetcode 专题](https://leetcode-cn.com/problemset/all/?topicSlugs=backtracking)
