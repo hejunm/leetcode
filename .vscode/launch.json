@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PathWithGivenSequence",
+            "request": "launch",
+            "mainClass": "PathWithGivenSequence"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CeilingOfANumber",
             "request": "launch",
             "mainClass": "CeilingOfANumber"
