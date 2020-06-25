@@ -2,7 +2,6 @@
 
 ## 介绍
 
-
 * [wiki](https://zh.wikipedia.org/wiki/%E5%9B%9E%E6%BA%AF%E6%B3%95)
 * 回溯法采用试错的思想，它尝试分步的去解决一个问题。
 * 在分步解决问题的过程中，当它通过尝试发现现有的分步答案不能得到有效的正确的解答的时候，它将取消上一步甚至是上几步的计算，
@@ -51,6 +50,6 @@ void backtrack(int[] nums, LinkedList<Integer> track) {
 
 ## 题目
 
+* [leetcode 专题](https://leetcode-cn.com/problemset/all/?topicSlugs=backtracking)
 * [46.全排列](https://leetcode-cn.com/problems/permutations/)
 * [51.N皇后](https://leetcode-cn.com/problems/n-queens/)
-* [leetcode 专题](https://leetcode-cn.com/problemset/all/?topicSlugs=backtracking)
