@@ -73,4 +73,35 @@ class Knapsack {
         }
         return dp[N-1][capacity];
     }
+
+        // 状态压缩
+        public int solveKnapsack2(int[] profits, int[] weights, int capacity) {
+            //参数校验
+            if (profits.length==0 || profits.length != weights.length || capacity==0) {
+                return 0;
+            }
+            int N = profits.length;
+            int[]dp = new int[capacity+1];
+    
+            //base case, c=0时 价值为0
+            for (int c = 0; c <= capacity; c++) {
+                dp[c] = weights[0] <= c ? profits[0] : 0;
+            }
+    
+            //状态i， c
+            for (int i = 1; i < N; i++) {
+                //防止dp[i-1] 被 dp[i]覆盖
+                for (int c = capacity; c >= 1; c--) {
+                    // 选择：将物品i放到背包(容量允许的化) | 不放到背包
+                    int p1 = 0;
+                    int p2 = 0;
+                    if(weights[i] <= c){
+                        p1 = dp[c-weights[i]] + profits[i];
+                    }
+                    p2 = dp[c];
+                    dp[c] = Math.max(p1, p2);
+                }
+            }
+            return dp[capacity];
+        }
 }
