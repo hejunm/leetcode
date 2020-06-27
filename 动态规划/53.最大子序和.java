@@ -1,7 +1,13 @@
 /*
  * @lc app=leetcode.cn id=53 lang=java
  *
- * [53] 最大子序和
+ * [53] 最大子序和 （序列时连续的）
+ * 
+ * 状态：
+ * 要处理的子数组长度
+ * 
+ * 选择：
+ * max(dp[i-1]+nums[i], nums[i])
  * 
  * dp[i]：
  * 以nums[i]结尾的最大子序列和

@@ -6,14 +6,20 @@ import java.util.Arrays;
  * [322] 零钱兑换
  */
 /**
- * base case: 
- * 总金额为0时，不要选硬币，所选币种个数0
  * 
  * 状态：
  * 总金额0，1，2...amount
  * 
  * 选择：
  * 不同面额的硬币coins，选择哪一个？
+ * 
+ * dp[i]:
+ * 金额为i时，最少零钱数量
+ * 
+ * base case: 
+ * 总金额为0时，不要选硬币，所选币种个数0
+ * 
+ * 状态转移方程：（已知dp[0]..dp[i-1], 如何求出dp[i]）
  */
 class Solution {
     public int coinChange(int[] coins, int amount) {
