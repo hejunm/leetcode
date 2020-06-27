@@ -122,3 +122,4 @@ int coinChange(vector<int>& coins, int amount) {
 ## 参考资料
 
 * [资料](https://labuladong.gitbook.io/algo/dong-tai-gui-hua-xi-lie/dong-tai-gui-hua-xiang-jie-jin-jie)
+* [背包问题九讲](https://www.kancloud.cn/kancloud/pack/70125)
