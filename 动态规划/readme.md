@@ -124,14 +124,20 @@ int coinChange(vector<int>& coins, int amount) {
 
 ## 题目
 
-* [解题思路](https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/dong-tai-gui-hua-xiang-jie-jin-jie)
-* [题目汇总](https://leetcode-cn.com/tag/dynamic-programming/)
+* [0-1 Knapsack (medium)](./0-1&#32;Knapsack&#32;(medium).java)
+* [53.最大子序和](./53.最大子序和.java)
+* [300.最长上升子序列](./300.最长上升子序列.java)
+* [322.零钱兑换](./322.零钱兑换.java)
+* [416.分割等和子集](./416.分割等和子集.java)
+* [518.零钱兑换-ii](./518.零钱兑换-ii.java)
+
+* [leetcode 题目汇总](https://leetcode-cn.com/tag/dynamic-programming/)
+* [72.编辑距离](https://leetcode-cn.com/problems/edit-distance/)
 * [300.最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
-* [509.斐波那契数0](https://leetcode-cn.com/problems/fibonacci-number/)
 * [322.零钱兑换](https://leetcode-cn.com/problems/coin-change/)
 * [416.分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
+* [509.斐波那契数0](https://leetcode-cn.com/problems/fibonacci-number/)
 * [518.零钱兑换II](https://leetcode-cn.com/problems/coin-change-2/)
-* [72.编辑距离](https://leetcode-cn.com/problems/edit-distance/)
 * [887.鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/)
 
 ## 参考资料
