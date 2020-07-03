@@ -13,7 +13,6 @@
 5. 检查是否有环
 
 ```java
-class TopologicalSort {
   public static List<Integer> sort(int vertices, int[][] edges) {
     List<Integer> sortedOrder = new ArrayList<>();
     if (vertices <= 0)
