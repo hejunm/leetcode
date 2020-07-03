@@ -17,7 +17,7 @@ if(b.start > a.end){
     //b.start > a.end 不存在交集 不能合并
     //存储a, 更新start end
 }else{ 
-    //b.start <= a.end  存在交集 可以合并
+    //b.start <= a.end  存在交集 可以合并. 合并后区间：[a.start, max(a.end, b.end)]
     int statr = a.start;
     int end = max(a.end, b.end)
 }
