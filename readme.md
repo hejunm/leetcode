@@ -12,7 +12,7 @@
 * [subSet](./subSet/readme.md)
 * [Top 'K' Elements](./TopKElements/readme.md)
 * [多路合并](./多路合并/readme.md)
-* [拓扑排序](./拓扑排序/readme.md)
+* [拓扑排序](./拓扑排序(图)/readme.md)
 * [位运算](./位运算/readme.md)
 * [Merge Interval](./MergeInterval/readme.md)
 * [算法可视化](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)

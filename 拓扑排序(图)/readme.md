@@ -64,9 +64,8 @@ class TopologicalSort {
 ## 题目
 
 * [Topological Sort (medium)](./Topological&#32;Sort&#32;(medium).java)
-* Tasks Scheduling (medium)
-* Tasks Scheduling Order (medium)
-* All Tasks Scheduling Orders (hard)
+* [Tasks Scheduling (medium)](./Tasks&#32;Scheduling&#32;(medium).java)
+* [All Tasks Scheduling Orders (hard)](./All&#32;Tasks&#32;Scheduling&#32;Orders&#32;(hard).java)
 * Alien Dictionary (hard)
 * Reconstructing a Sequence (hard)
 * Minimum Height Trees (hard)
