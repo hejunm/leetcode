@@ -28,7 +28,12 @@ while (right < s.size()) {`
 
 ## 题目
 
-* 解决问题
-* 窗口限制条件
-* 如何满足条件
-  
+* [Fruits into Baskets (medium)](./Fruits&#32;into&#32;Baskets&#32;(medium)&#32;.java)
+* [Longest Subarray with Ones after Replacement (hard)](./Longest&#32;Subarray&#32;with&#32;Ones&#32;after&#32;Replacement&#32;(hard)&#32;.java)
+* [Longest Substring with K Distinct Characters (medium)](./Longest&#32;Substring&#32;with&#32;K&#32;Distinct&#32;Characters&#32;(medium)&#32;.java)
+* [Longest Substring with Same Letters after Replacement(hard)](./Longest&#32;Substring&#32;with&#32;Same&#32;Letters&#32;after&#32;Replacement&#32;(hard).java)
+* [No-repeat Substring (hard)](./No-repeat&#32;Substring&#32;(hard)&#32;.java)
+*[Permutation in a String (hard)](./Permutation&#32;in&#32;a&#32;String&#32;(hard)&#32;.java)
+* [Smallest Window containing Substring (hard)](./Smallest&#32;Window&#32;containing&#32;Substring&#32;(hard)&#32;#&#32;.java)
+* [String Anagrams (hard)](./String&#32;Anagrams&#32;(hard).java)
+* [Words Concatenation (hard)](./Words&#32;Concatenation&#32;(hard)&#32;.java)
