@@ -65,7 +65,7 @@
 * [Topological Sort (medium)](./Topological&#32;Sort&#32;(medium).java)
 * [Tasks Scheduling (medium)](./Tasks&#32;Scheduling&#32;(medium).java)
 * [All Tasks Scheduling Orders (hard)](./All&#32;Tasks&#32;Scheduling&#32;Orders&#32;(hard).java)
-* Alien Dictionary (hard)
-* Reconstructing a Sequence (hard)
-* Minimum Height Trees (hard)
+* [Alien Dictionary (hard)](./Alien&#32;Dictionary&#32;(hard).java)
+* [Reconstructing a Sequence (hard)](./Reconstructing&#32;a&#32;Sequence&#32;(hard).java)
+* [Minimum Height Trees (hard)](./Minimum&#32;Height&#32;Trees&#32;(hard).java)
   
