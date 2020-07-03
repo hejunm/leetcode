@@ -1,18 +1,24 @@
-# 拓扑排序
+/**
+Topological Sort (medium)
+Topological Sort of a directed graph (a graph with unidirectional edges) is a linear ordering of its vertices such that for every directed edge (U, V) from vertex U to vertex V, U comes before V in the ordering.
+Given a directed graph, find the topological ordering of its vertices.
 
-## 介绍
+Input: Vertices=4, Edges=[3, 2], [3, 0], [2, 0], [2, 1]
+Output: Following are the two valid topological sorts for the given graph:
+1) 3, 2, 0, 1
+2) 3, 2, 1, 0
 
-拓扑排序用于查找相互依赖的元素的线性顺序。例如，如果事件“ B”依赖于事件“ A”，则按照拓扑顺序，“ A”排在“ B”之前。 这种模式定义了一种简单的方法，可以理解对一组元素进行拓扑排序的技术，然后解决使用它的一些问题。
+Input: Vertices=5, Edges=[4, 2], [4, 3], [2, 0], [2, 1], [3, 1]
+Output: Following are all valid topological sorts for the given graph:
+1) 4, 2, 3, 0, 1
+2) 4, 3, 2, 0, 1
+3) 4, 3, 2, 1, 0
+4) 4, 2, 3, 1, 0
+5) 4, 2, 0, 3, 1
+*/
 
-## 解题方法 & 模板
+import java.util.*;
 
-1. 创建数据结构。使用邻接表存储图，使用map存储入度。
-2. 构建图， 每个节点的入度
-3. 查找出入度为0的节点，放入队列中
-4. 出队列，更新子节点的入度。为0时放入队列中。 循环操作
-5. 检查是否有环
-
-```java
 class TopologicalSort {
   public static List<Integer> sort(int vertices, int[][] edges) {
     List<Integer> sortedOrder = new ArrayList<>();
@@ -59,15 +65,19 @@ class TopologicalSort {
 
     return sortedOrder;
   }
-```
 
-## 题目
+  public static void main(String[] args) {
+    List<Integer> result = TopologicalSort.sort(4,
+        new int[][] { new int[] { 3, 2 }, new int[] { 3, 0 }, new int[] { 2, 0 }, new int[] { 2, 1 } });
+    System.out.println(result);
 
-* [Topological Sort (medium)](./Topological&#32;Sort&#32;(medium).java)
-* Tasks Scheduling (medium)
-* Tasks Scheduling Order (medium)
-* All Tasks Scheduling Orders (hard)
-* Alien Dictionary (hard)
-* Reconstructing a Sequence (hard)
-* Minimum Height Trees (hard)
-  
+    result = TopologicalSort.sort(5, new int[][] { new int[] { 4, 2 }, new int[] { 4, 3 }, new int[] { 2, 0 },
+        new int[] { 2, 1 }, new int[] { 3, 1 } });
+    System.out.println(result);
+
+    result = TopologicalSort.sort(7, new int[][] { new int[] { 6, 4 }, new int[] { 6, 2 }, new int[] { 5, 3 },
+        new int[] { 5, 4 }, new int[] { 3, 0 }, new int[] { 3, 1 }, new int[] { 3, 2 }, new int[] { 4, 1 } });
+    System.out.println(result);
+  }
+}
+
