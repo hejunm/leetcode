@@ -25,14 +25,17 @@ if(b.start > a.end){
     //存储a, 更新start end
 }else{
     //b.start <= a.end  存在交集 可以合并. 合并后区间：[a.start, max(a.end, b.end)]
-    int statr = a.start;
+    int statr = min(a.start, b.start);
     int end = max(a.end, b.end)
 }
 ```
 
-### 插入区间
+### 交集
 
-* 如果两区间存在交集，合并后的区间为：[min(a.start, b.start), max(a.end, b.end)]
+```java
+start = max(a.start, b.start)
+end = min(a.end, b.end)
+```
 
 ## 解题方法 & 代码模板
 
