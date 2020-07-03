@@ -75,3 +75,13 @@ int right_bound(int[] nums, int target) {
 ```
 
 ## 例题
+
+* [Bitonic Array Maximum (easy)](./Bitonic&#32;Array&#32;Maximum&#32;(easy)&#32;.java)
+* [Ceiling of a Number (medium)](./Ceiling&#32;of&#32;a&#32;Number&#32;(medium).java)
+* [Minimum Difference Element (medium)](./Minimum&#32;Difference&#32;Element&#32;(medium).java)
+* [Next Letter (medium)](./Next&#32;Letter&#32;(medium)&#32;.java)
+* [Number Range (medium)](./Number&#32;Range&#32;(medium)&#32;.java)
+* [Order-agnostic Binary Search (easy)](./Order-agnostic&#32;Binary&#32;Search&#32;(easy)&#32;.java)
+* [Search Bitonic Array (medium)](./Search&#32;Bitonic&#32;Array&#32;(medium)&#32;.java)
+* [Search in a Sorted Infinite Array (medium)](./Search&#32;in&#32;a&#32;Sorted&#32;Infinite&#32;Array&#32;(medium)&#32;.java)
+* [Search in Rotated Array (medium) #](./Search&#32;in&#32;Rotated&#32;Array&#32;(medium)&#32;#.java)
