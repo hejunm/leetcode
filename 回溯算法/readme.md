@@ -50,6 +50,12 @@ void backtrack(int[] nums, LinkedList<Integer> track) {
 
 ## 题目
 
+* [37.解数独](./37.解数独.java)
+* [46.全排列](./46.全排列.java)
+* [51.n皇后](./51.n皇后.java)
+* [77.组合](./77.组合.java)
+* [78.子集](./78.子集.java)
+* [79.单词搜索](./79.单词搜索.java)
+* [90.子集-ii](./90.子集-ii.java)
+
 * [leetcode 专题](https://leetcode-cn.com/problemset/all/?topicSlugs=backtracking)
-* [46.全排列](https://leetcode-cn.com/problems/permutations/)
-* [51.N皇后](https://leetcode-cn.com/problems/n-queens/)
