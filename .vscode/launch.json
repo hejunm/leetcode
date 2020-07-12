@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReverseEveryKElements",
+            "request": "launch",
+            "mainClass": "ReverseEveryKElements"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PathWithGivenSequence",
             "request": "launch",
             "mainClass": "PathWithGivenSequence"
