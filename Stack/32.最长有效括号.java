@@ -18,20 +18,26 @@ import java.util.Stack;
 
 // @lc code=start
 class Solution {
-    public int longestValidParentheses(String s) {
-        int result = 0;
-        Stack<Integer> stack = new Stack<Integer>();
-        char[] charArray = s.toCharArray();
-        for (int i = 0; i < charArray.length; i++) {
-            char c = charArray[i];
-            if(stack.isEmpty() || stack.peek() == ')' || c=='('){
-                stack.push(i);
-            }else{
-                stack.pop();
-                result = Math.max(result, i - stack.peek());
+    class Solution {
+        public int longestValidParentheses(String s) {
+            int result = 0;
+            Stack<Integer> stack = new Stack<Integer>();
+            char[] charArray = s.toCharArray();
+            for (int i = 0; i < charArray.length; i++) {
+                char c = charArray[i];
+                if(stack.isEmpty() || charArray[stack.peek()] == ')' || c=='('){
+                    stack.push(i);
+                }else{
+                    stack.pop();
+                    if(stack.isEmpty()){
+                        result = Math.max(result, i + 1);
+                    }else{
+                        result = Math.max(result, i - stack.peek());
+                    }
+                }
             }
+            return result;
         }
-        return result;
     }
 }
 // @lc code=end
