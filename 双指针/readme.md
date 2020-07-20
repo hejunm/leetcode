@@ -1,18 +1,14 @@
 # 双指针算法
 
-## 适用问题类型
+## 问题类型1: 从有序序列中查找符合条件的数据集合
 
-* 从有序序列中查找符合条件的数据集合
-
-## 解题模式
+### 解题模式
 
 * 必须是有序序列， 如果无序 需先排序
 * 初始化left，right指针 （例如：指向头尾）
 * 根据条件，移动left 或者 right （同向、相向）
 
-## 举例 & 题目
-
-该文件夹中每个文件对应一个算法。我会在代码中添加必要注释，以帮助理解解题模式。包含三方面内容：
+### 举例 & 题目
 
 * [Comparing Strings containing Backspaces (medium)](./Comparing&#32;Strings&#32;containing&#32;Backspaces&#32;(medium)&#32;#&#32;.java)
 * [Dutch National Flag Problem (medium)](./Dutch&#32;National&#32;Flag&#32;Problem&#32;(medium).java)
@@ -24,3 +20,8 @@
 * [Triplet Sum Close to Target (medium)](./Triplet&#32;Sum&#32;Close&#32;to&#32;Target&#32;(medium)&#32;.java)
 * [Triplet Sum to Zero (medium)](./Triplet&#32;Sum&#32;to&#32;Zero&#32;(medium)&#32;.java)
 * [Triplets with Smaller Sum (medium)](./Triplets&#32;with&#32;Smaller&#32;Sum&#32;(medium)&#32;.java)
+
+## 问题类型2 左右指针用于标记， 在一定条件下移动左右指针。
+
+### 题目
+* [75颜色分类](./)
